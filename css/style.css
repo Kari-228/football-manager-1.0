@@ -1,0 +1,50 @@
+body {
+    background-color: #8dc63f;
+    font-family: "Arial"; 
+}
+.wrapper{
+    width: 960px;
+    height: 707px;
+    background-color: #ffffff;
+}
+
+.logo {
+    
+    font-size: 22px;
+    line-height: 7px;
+    color: #39930d;
+}
+
+.logo i {
+    font-size: 14px;
+    line-height: 7px;
+    color: #5a5a5a;
+    font-style: italic;
+}
+
+.tell {
+    color: #39930d;
+    text-align: right;
+    text-decoration: none;
+}
+
+.main h1 {
+    font-size: 24px;
+    line-height: 7px;
+    color: #39930d;
+    font-weight: bold;
+}
+
+.main p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+}
+
+.footer ul {
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #39930d;
+}
