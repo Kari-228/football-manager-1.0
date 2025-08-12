@@ -25,9 +25,31 @@ body {
     color: #39930d;
 }
 
-.logo i {
+.logo strong{
+    color: #39930d;
+    font-weight: bold;
+    font-family: "Arial";
+    padding-top: 12px;
+}
+
+.logo i{
+    color: #5a5a5a;
+font-style: italic;
+font-family: "Arial";
+padding-top: 12px;
+}
+
+.picture{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.tel i {
     color: #5a5a5a;
     font-style: italic;
+    font-family: "Arial";
+    text-align: right;
+    padding-top: 11px;
 }
 
 .tel p {
@@ -42,6 +64,10 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+}
+.field{
+    padding-right: 15px;
+    padding-left: 15;
 }
 
 .main{
@@ -70,7 +96,7 @@ body {
 
 .link p{
     background-color: #39930d;
-   min-width: ; width: 300;
+    min-width: 300;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
@@ -90,4 +116,7 @@ body {
     margin: auto;
     padding: 0px 15px 0px 15px;
     width: 960px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Arial";
 }
