@@ -12,11 +12,16 @@ body {
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.logo p{
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
-
+    display: flex;
+    justify-content: space-around;
     color: #39930d;
 }
 
@@ -25,7 +30,12 @@ body {
     font-style: italic;
 }
 
-.tell {
+.tel p {
+    display: flex;
+    flex-direction: column;
+}
+
+.tel a {
     color: #39930d;
     text-align: right;
     text-decoration: none;
@@ -34,6 +44,12 @@ body {
     align-items: flex-end;
 }
 
+.main{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+   
+}
 
 .main-info h1 {
     font-size: 24px;
@@ -46,18 +62,22 @@ body {
     font-size: 14px;
     line-height: 21px;
     color: #343434;
+
 }
-.footer p{
+.link{
+    padding-left: 10px;
+}
+
+.link p{
     background-color: #39930d;
-    font-size: 18px;
-    line-height: 7px;
+   min-width: ; width: 300;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
     align-items: center;
 }
 
-.footer ul {
+.link a {
     font-size: 14px;
     line-height: 30px;
     text-decoration: underline;
@@ -65,7 +85,7 @@ body {
     color: #39930d;
     font-size: 14px;
 }
-.info{
+.footer{
     background-color: #39930d;
     margin: auto;
     padding: 0px 15px 0px 15px;
