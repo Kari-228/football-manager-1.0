@@ -109,6 +109,7 @@ padding-right: 25;
 .link a {
     font-size: 14px;
     line-height: 30px;
+    text-decoration: none;
     text-decoration: underline;
     text-transform: uppercase;
     color: #39930d;
@@ -117,7 +118,7 @@ padding-right: 25;
 .footer{
     background-color: #39930d;
     margin: auto;
-    
+    padding: 0px 15px;
     width: 960px;
     font-size: 14px;
     color: #ffffff;
