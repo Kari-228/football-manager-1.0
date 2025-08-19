@@ -34,14 +34,13 @@ body {
     font-weight: bold;
     font-family: "Arial";
     font-size: 44px;
-    padding-top: 12px;
 }
 
 .logo i{
     color: #5a5a5a;
 font-style: italic;
 font-family: "Arial";
-padding-top: 12px;
+
 }
 
 .picture{
@@ -100,11 +99,11 @@ padding-right: 25;
 
 .link p{
     background-color: #39930d;
-    min-width: 300;
-    text-transform: uppercase;
+    min-width: 300px;
     color: #ffffff;
     font-weight: bold;
     align-items: center;
+    padding: 12px 20px;
 }
 
 .link a {
@@ -118,7 +117,7 @@ padding-right: 25;
 .footer{
     background-color: #39930d;
     margin: auto;
-    padding: 0px 15px 0px 15px;
+    
     width: 960px;
     font-size: 14px;
     color: #ffffff;
