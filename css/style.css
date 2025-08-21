@@ -31,20 +31,18 @@ body {
 .logo strong{
     color: #39930d;
     font-weight: bold;
-    font-family: "Arial";
     font-size: 44px;
 }
 
 .logo i{
     color: #5a5a5a;
-font-style: italic;
-font-family: "Arial";
-
+    font-style: italic;
+    font-size: 14px;
 }
 
 .picture{
-padding-left: 25;
-padding-right: 25;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .tel i {
@@ -62,6 +60,7 @@ padding-right: 25;
 }
 
 .tel a {
+    font-size: 22px;
     color: #39930d;
     text-align: right;
     text-decoration: none;
@@ -69,9 +68,8 @@ padding-right: 25;
     justify-content: flex-end;
     align-items: flex-end;
 }
-.field{
-    padding-right: 15px;
-    padding-left: 15px;
+.field img {
+    width: 100%;
 }
 
 .main{
