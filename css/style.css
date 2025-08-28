@@ -41,7 +41,7 @@ body {
 }
 
 .picture{
-    margin: 0.35px;
+    margin: 0 35px;
 }
 
 .tel i {
@@ -113,8 +113,7 @@ body {
 }
 .link ul {
     list-style: none;
-    padding-right: 82px;
-    padding-left: 22px;
+    padding: 0 22px;
 }
 
 .link li:hover > a {
