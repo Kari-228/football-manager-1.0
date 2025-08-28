@@ -16,6 +16,7 @@ body {
     justify-content: space-between;
 }
 .logo p{
+    padding-right: 35px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -41,7 +42,6 @@ body {
 }
 
 .picture{
-    padding-left: 35px;
     padding-right: 35px;
 }
 
@@ -103,6 +103,10 @@ body {
     padding-left: 10px;
 }
 
+.link li:hover > a {
+    color: #006400;
+}
+
 .link p{
     background-color: #39930d;
     min-width: 300px;
@@ -119,13 +123,14 @@ body {
 
 .link a {
     font-size: 14px;
-   
     line-height: 30px;
     text-decoration: underline;
     text-transform: uppercase;
     color: #39930d;
     font-size: 14px;
+    transition: color 0.1 ease;
 }
+
 .footer{
     background-color: #39930d;
     margin: auto;
