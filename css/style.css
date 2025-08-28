@@ -103,9 +103,6 @@ body {
     padding-left: 10px;
 }
 
-.link li:hover > a {
-    color: #006400;
-}
 
 .link p{
     background-color: #39930d;
@@ -121,14 +118,20 @@ body {
     padding-left: 22px;
 }
 
+.link li:hover > a {
+    color: #fff;
+    background-color: #39930d;
+}
+
 .link a {
     font-size: 14px;
     line-height: 30px;
     text-decoration: underline;
     text-transform: uppercase;
     color: #39930d;
-    font-size: 14px;
-    transition: color 0.1 ease;
+    transition: all 1s ease;
+   
+    padding-right: 15px;
 }
 
 .footer{
