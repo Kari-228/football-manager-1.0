@@ -16,7 +16,6 @@ body {
     justify-content: space-between;
 }
 .logo p{
-    padding-right: 35px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -42,7 +41,7 @@ body {
 }
 
 .picture{
-    padding-right: 35px;
+    margin: 0.35px;
 }
 
 .tel i {
@@ -130,8 +129,7 @@ body {
     text-transform: uppercase;
     color: #39930d;
     transition: all 1s ease;
-   
-    padding-right: 15px;
+    display: block;
 }
 
 .footer{
