@@ -7,13 +7,24 @@ body {
     background-color: #ffffff;
     margin: auto;
     max-width: 960px;
-    padding: 0px 15px 0px 15px;
+    padding: 0 15px;
 }
 
 .header{
     padding: 25px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #39930d;
+    row-gap: 10px;
+    text-align: center;
 }
 .logo p{
     margin: 0;
@@ -22,11 +33,6 @@ body {
     font-size: 22px;
 }
 
-.logo {
-    display: flex;
-    justify-content: space-around;
-    color: #39930d;
-}
 
 .logo strong{
     color: #39930d;
@@ -48,7 +54,7 @@ body {
     color: #5a5a5a;
     font-style: italic;
     font-family: "Arial";
-    text-align: right;
+    text-align: center;
     padding-top: 11px;
 }
 
@@ -67,14 +73,19 @@ body {
     justify-content: flex-end;
     align-items: flex-end;
 }
+
 .field img {
     width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 75%;
 }
 
-.main{
+.main {
     display: flex;
     justify-content: space-around;
     column-gap: 58px;
+    flex-wrap: wrap;
    
 }
 
@@ -98,9 +109,7 @@ body {
     color: #343434;
 
 }
-.link{
-    padding-left: 10px;
-}
+
 
 
 .link p{
@@ -108,8 +117,8 @@ body {
     min-width: 300px;
     color: #ffffff;
     font-weight: bold;
-    align-items: center;
     padding: 12px 20px;
+    box-sizing: border-box;
 }
 .link ul {
     list-style: none;
@@ -133,10 +142,32 @@ body {
 
 .footer{
     background-color: #39930d;
-    margin: auto;
+    margin: 0 -15px;
     padding: 20px 15px;
-    width: 960px;
     font-size: 14px;
     color: #ffffff;
     font-family: "Arial";
 }
+
+@media screen and (min-width: 425px) {
+    .logo {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 626px) {
+    .header{
+        justify-content: space-between;
+    }
+
+    .tel i {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        flex-wrap: nowrap;
+    }
+}
+
